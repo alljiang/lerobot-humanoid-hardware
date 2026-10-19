@@ -348,7 +348,7 @@ Components:
 | bearing | Bearing | 15x21x4 | 2 | 4 |
 | fastener_nut | Nut M3 | M3 nut | 1 | 2 |
 | fastener_screw | M3 screw | M3 x 10 cyl head | 12 | 24 |
-| fastener_screw | M3 screw | M3 x 30 cyl head | 1 | 2 |
+| fastener_screw | M3 screw | M3 x 50 cyl head | 1 | 2 |
 | fastener_screw | M4 screw | M4 x 18 cyl head | 4 | 8 |
 | fastener_screw | M4 screw | M4 x 10 cyl head | 4 | 8 |
 | fastener_screw | M2.5 screw | M2.5 x 8 cyl head | 9 | 18 |

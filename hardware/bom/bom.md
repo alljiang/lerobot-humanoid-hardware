@@ -47,7 +47,13 @@
 
 | category | name | specification | qty_subassembly | qty_robot |
 |---|---|---|---:|---:|
+| fastener_screw | M3 screw | M3 x 8 cyl head | 3 | 6 |
+| fastener_screw | M4 screw | M4 x 8 cyl head | 8 | 16 |
 | fastener_screw | M4 screw | M4 x 12 cyl head | 6 | 12 |
+| fastener_screw | M4 screw | M4 x 40 cyl head | 6 | 12 |
+| fastener_screw | M4 screw | M4 x 45 cyl head | 9 | 18 |
+
+> Comment: the `hipx` M3 screw line is optional and can be removed without issue.
 
 ### stl_to_print_left_leg
 | name | quantity |
@@ -66,8 +72,8 @@
 | motor | RobStride O2 | actuator | 1 | 2 |
 | bearing | Bearing | 35x72x17 | 2 | 4 |
 | fastener_screw | M3 screw | M3 x 10 cyl head | 12 | 24 |
-| fastener_screw | M4 screw | M4 x 40 cyl head | 6 | 12 |
-| fastener_screw | M4 screw | M4 x 45 cyl head | 4 | 8 |
+| fastener_screw | M4 screw | M4 x 10 cyl head | 8 | 16 |
+| fastener_screw | M4 screw | M4 x 20 cyl head | 8 | 16 |
 
 ### stl_to_print_left_leg
 | name | quantity |
@@ -90,9 +96,11 @@
 | bearing | Bearing | 5x16x5 | 2 | 4 |
 | fastener_screw | M2.5 screw | M2.5 x 6 cyl head | 3 | 6 |
 | fastener_screw | M2.5 screw | M2.5 x 8 cyl head | 3 | 6 |
+| fastener_screw | M4 screw | M4 x 8 cyl head | 10 | 20 |
 | fastener_screw | M4 screw | M4 x 10 cyl head | 12 | 24 |
 | fastener_screw | M4 screw | M4 x 16 cyl head | 2 | 4 |
 | fastener_screw | M4 screw | M4 x 20 cyl head | 6 | 12 |
+| fastener_screw | M4 screw | M4 x 23.5 cyl head | 4 | 8 |
 | fastener_screw | M4 screw | M4 x 30 cyl head | 4 | 8 |
 | fastener_nut | Nut M4 | M4 nut | 1 | 2 |
 | fastener_insert | Heat-set insert M4 | brass threaded insert M4 (OD 5 mm, L 4-6 mm for 4.0 mm lower femur holes) | 2 | 4 |
@@ -117,7 +125,9 @@
 | category | name | specification | qty_subassembly | qty_robot |
 |---|---|---|---:|---:|
 | bearing | Bearing | 15x21x4 | 2 | 4 |
+| fastener_screw | M3 screw | M3 x 12.5 cyl head | 3 | 6 |
 | fastener_screw | M3 screw | M3 x 18 cyl head | 3 | 6 |
+| fastener_screw | M4 screw | M4 x 16 cyl head | 8 | 16 |
 | fastener_screw | M4 screw | M4 x 20 cyl head | 6 | 12 |
 
 ### stl_to_print_left_leg
@@ -139,12 +149,13 @@
 | category | name | specification | qty_subassembly | qty_robot |
 |---|---|---|---:|---:|
 | motor | RobStride O5 | actuator | 2 | 4 |
-| bearing | Bearing | 15x21x4 | 2 | 4 |
-| fastener_screw | M2.5 screw | M2.5 x 8 cyl head | 3 | 6 |
-| fastener_screw | M3 screw | M3 x 10 cyl head | 12 | 24 |
-| fastener_screw | M3 screw | M3 x 30 cyl head | 1 | 2 |
-| fastener_screw | M4 screw | M4 x 18 cyl head | 4 | 8 |
-| fastener_screw | M4 screw | M4 x 10 cyl head | 4 | 8 |
+| bearing | Bearing | 15x21x4 | 4 | 8 |
+| fastener_screw | M2.5 screw | M2.5 x 8 cyl head | 9 | 18 |
+| fastener_screw | M3 screw | M3 x 17.5 cyl head | 4 | 8 |
+| fastener_screw | M3 screw | M3 x 10 cyl head | 24 | 48 |
+| fastener_screw | M3 screw | M3 x 50 cyl head | 1 | 2 |
+| fastener_screw | M4 screw | M4 x 18 cyl head | 16 | 32 |
+| fastener_screw | M4 screw | M4 x 10 cyl head | 16 | 32 |
 | fastener_nut | Nut M3 | M3 nut | 1 | 2 |
 | fastener_nut | Nut M4 | M4 nut | 4 | 8 |
 | fastener_insert | Heat-set insert M3 | brass threaded insert M3 (OD 4.2-4.5 mm, L 4-6 mm for 3.8 mm shin spacer holes) | 4 | 8 |
