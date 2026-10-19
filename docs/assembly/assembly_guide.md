@@ -196,7 +196,7 @@ Components:
 | fastener_screw | M4 screw | M4 x 16 cyl head | 2 | 4 |
 | fastener_screw | M4 screw | M4 x 20 cyl head | 6 | 12 |
 | fastener_screw | M4 screw | M4 x 30 cyl head | 4 | 8 |
-| fastener_insert | Heat-set insert M4 | brass threaded insert M4 | 2 | 4 |
+| fastener_insert | Heat-set insert M4 | brass threaded insert M4 (OD 5 mm, L 4-6 mm for 4.0 mm lower femur holes) | 2 | 4 |
 
 STL To Print:
 | Name | Quantity |
@@ -241,9 +241,9 @@ Assembly steps:
 
 > Comment: Since I don't have the wiring diagram at this point, I'm holding off on routing wires. Do what you think is best here. - Paul Ruiz
 
-8. Attach `femur_12` to `femur_22` using four M4 x 30 screws near the top motor and two M4 x 16 motors at the lower portion.
+8. Attach `femur_12` to `femur_22` using four M4 x 30 screws near the top motor and two M4 x 16 screws at the lower portion.
 
-> Comment: I found the lower holes to be pretty loose. I added two M4 threaded heat inserts on both legs to secure it better. Just be careful here as the femurs were the pieces that took the longest to print, so you don't want to ruin them this early.
+> Comment: I found the lower holes (4.0 mm bore in `femur_12`) to be pretty loose for self-tapping. I added two M4 threaded heat-set inserts (use 5.0 mm OD × 4–6 mm length rather than 6.0 mm OD so you don't displace excessive plastic in the 4.0 mm bore) on both legs to secure it better. Just be careful here as the femurs were the pieces that took the longest to print, so you don't want to ruin them this early.
 
 9. Insert the second RobStride O3 motor (ID 4 or 10) into the femur. If you didn't adjust the screws on the back earlier, now is the time to do that. Mount the motor into place using eight M4 x 10 screws (four on both sides).
 
@@ -348,11 +348,12 @@ Components:
 | bearing | Bearing | 15x21x4 | 2 | 4 |
 | fastener_nut | Nut M3 | M3 nut | 1 | 2 |
 | fastener_screw | M3 screw | M3 x 10 cyl head | 12 | 24 |
-| fastener_screw | M3 screw | M3 x 50 cyl head | 1 | 2 |
+| fastener_screw | M3 screw | M3 x 30 cyl head | 1 | 2 |
 | fastener_screw | M4 screw | M4 x 18 cyl head | 4 | 8 |
 | fastener_screw | M4 screw | M4 x 10 cyl head | 4 | 8 |
 | fastener_screw | M2.5 screw | M2.5 x 8 cyl head | 9 | 18 |
 | fastener_nut | Nut M4 | M4 nut | 4 | 8 |
+| fastener_insert | Heat-set insert M3 | brass threaded insert M3 (OD 4.2-4.5 mm, L 4-6 mm for 3.8 mm shin spacer holes) | 4 | 8 |
 
 STL To Print:
 | Name | Quantity |
@@ -402,11 +403,11 @@ Assembly steps:
 
 ![Tibia halves connected](photos/assembly_shins/shin_tibia_connected.jpg)
 
-6. Place an M3x50 screw through the openings where the tibia connects to the knee mechanism. Secure with an M3 nut.
+6. Place an M3x30 screw (`M3x0.50 x 30` in Onshape CAD; a longer M3 screw up to M3x50 also works) through the top-rear clamping hole where the tibia pinches the knee mechanism bearing. Secure with an M3 nut.
 
 ![Tibia knee mechanism screw location](photos/assembly_shins/shin_knee_mechanism_screw.jpg)
 
-7. Slide the tibia spacer between the two motors and secure with four M4 x 10 screws.
+7. Slide the tibia spacer (`tibias2_shin_spacer_2.stl`) between the two motors and secure with four M4 x 10 screws (self-tapping directly into the 3.8 mm spacer bores; alternatively, install four M3 heat-set inserts of 4.2–4.5 mm OD × 4–6 mm length into the 3.8 mm spacer bores before sliding it in, and secure with four M3 screws).
 
 ![Tibia spacer](photos/assembly_shins/shin_tibia_spacer.jpg)
 

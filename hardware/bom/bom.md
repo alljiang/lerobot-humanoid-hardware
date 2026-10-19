@@ -95,7 +95,7 @@
 | fastener_screw | M4 screw | M4 x 20 cyl head | 6 | 12 |
 | fastener_screw | M4 screw | M4 x 30 cyl head | 4 | 8 |
 | fastener_nut | Nut M4 | M4 nut | 1 | 2 |
-| fastener_insert | Heat-set insert M4 | brass threaded insert M4 | 2 | 4 |
+| fastener_insert | Heat-set insert M4 | brass threaded insert M4 (OD 5 mm, L 4-6 mm for 4.0 mm lower femur holes) | 2 | 4 |
 | fastener_axis | Shoulder screw 07534-05X40 | ISO7379, D1=5, L1=40, B=8, M4, SW=2.5, steel 12.9 | 1 | 2 |
 
 ### stl_to_print_left_leg
@@ -142,12 +142,12 @@
 | bearing | Bearing | 15x21x4 | 2 | 4 |
 | fastener_screw | M2.5 screw | M2.5 x 8 cyl head | 3 | 6 |
 | fastener_screw | M3 screw | M3 x 10 cyl head | 12 | 24 |
-| fastener_screw | M3 screw | M3 x 50 cyl head | 1 | 2 |
+| fastener_screw | M3 screw | M3 x 30 cyl head | 1 | 2 |
 | fastener_screw | M4 screw | M4 x 18 cyl head | 4 | 8 |
 | fastener_screw | M4 screw | M4 x 10 cyl head | 4 | 8 |
 | fastener_nut | Nut M3 | M3 nut | 1 | 2 |
 | fastener_nut | Nut M4 | M4 nut | 4 | 8 |
-| fastener_insert | Heat-set insert M3 | brass threaded insert M3 | 4 | 8 |
+| fastener_insert | Heat-set insert M3 | brass threaded insert M3 (OD 4.2-4.5 mm, L 4-6 mm for 3.8 mm shin spacer holes) | 4 | 8 |
 
 ### stl_to_print_left_leg
 | name | quantity |
